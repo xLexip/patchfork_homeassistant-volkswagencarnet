@@ -27,8 +27,8 @@ from homeassistant.helpers.update_coordinator import (
 )
 
 # pylint: disable=no-name-in-module,hass-relative-import
-from volkswagencarnet.vw_connection import Connection
-from volkswagencarnet.vw_dashboard import (
+from .volkswagencarnet.vw_connection import Connection
+from .volkswagencarnet.vw_dashboard import (
     BinarySensor,
     DoorLock,
     Instrument,
@@ -40,7 +40,7 @@ from volkswagencarnet.vw_dashboard import (
     Switch,
     TrunkLock,
 )
-from volkswagencarnet.vw_vehicle import Vehicle
+from .volkswagencarnet.vw_vehicle import Vehicle
 
 from .const import (
     COMPONENTS,

@@ -7,7 +7,7 @@ from homeassistant.helpers import device_registry as dr
 from homeassistant.helpers.device_registry import DeviceEntry, DeviceRegistry
 
 # pylint: disable=no-name-in-module,hass-relative-import
-from volkswagencarnet.vw_vehicle import Vehicle
+from .volkswagencarnet.vw_vehicle import Vehicle
 
 from .const import CONF_NO_CONVERSION, CONF_SCANDINAVIAN_MILES, DATA, DOMAIN
 from .error import ServiceError

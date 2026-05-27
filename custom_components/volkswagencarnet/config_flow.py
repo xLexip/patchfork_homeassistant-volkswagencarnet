@@ -21,8 +21,8 @@ import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.entity_registry import async_get
 
 # pylint: disable=no-name-in-module,hass-relative-import
-from volkswagencarnet.vw_connection import Connection
-from volkswagencarnet.vw_vehicle import Vehicle
+from .volkswagencarnet.vw_connection import Connection
+from .volkswagencarnet.vw_vehicle import Vehicle
 
 from .const import (
     CONF_AVAILABLE_RESOURCES,
